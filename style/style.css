@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: agency fb;
+    color: white;
+} 
+.salut{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    color: white;
+}
+header{
+    background: green;
+    padding: 1px;
+}
+h1{
+    padding-left: 10px;
+    font-size: 40px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton{
+    color: white;
+    padding: 1Opx;
+    border: 1px solid;
+    font-size: 30px;
+}
+.WOUAAA{
+    padding: 10px;
+}
+.contenu{
+    border: 1px solid;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    left: 70px;
+    top: 120px;
+    font-size: 33px;
+    border-radius: 100%;
+}
+
